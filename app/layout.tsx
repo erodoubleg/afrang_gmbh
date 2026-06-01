@@ -15,10 +15,6 @@ export const metadata: Metadata = {
     'Afrang GmbH kauft LKWs, Baumaschinen und Nutzfahrzeuge fair und unkompliziert an. Seriöser Ankauf aus Bad Homburg – schnelle Bewertung, transparente Abwicklung.',
   keywords:
     'LKW Ankauf, Baumaschinen Ankauf, Nutzfahrzeuge verkaufen, Afrang GmbH, Bad Homburg, Fahrzeugankauf',
-  icons: {
-    icon: '/icon.svg',
-    apple: '/apple-icon.png',
-  },
 }
 
 export const viewport: Viewport = {

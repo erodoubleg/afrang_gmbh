@@ -36,9 +36,9 @@ export function Navigation() {
               <Image
                 src="/logo.png"
                 alt="Afrang GmbH Logo"
-                width={140}
-                height={56}
-                className="h-10 w-auto md:h-12"
+                width={120}
+                height={120}
+                className="h-11 w-auto md:h-12"
                 priority
               />
             </Link>

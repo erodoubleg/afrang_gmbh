@@ -18,9 +18,9 @@ export function LegalPage({
             <Image
               src="/logo.png"
               alt="Afrang GmbH"
-              width={120}
-              height={48}
-              className="h-9 w-auto"
+              width={100}
+              height={100}
+              className="h-10 w-auto"
             />
           </Link>
           <Link

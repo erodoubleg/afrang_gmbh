@@ -32,9 +32,9 @@ export function Footer() {
               <Image
                 src="/logo.png"
                 alt="Afrang GmbH Logo"
-                width={140}
-                height={56}
-                className="h-10 w-auto"
+                width={120}
+                height={120}
+                className="h-12 w-auto"
               />
             </Link>
             <p className="text-muted-foreground mb-6 leading-relaxed text-sm">

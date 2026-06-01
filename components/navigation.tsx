@@ -6,11 +6,11 @@ import Image from "next/image"
 import { Menu, X, Mail } from "lucide-react"
 
 const navLinks = [
-  { name: "Über uns", href: "#about" },
-  { name: "Ankauf", href: "#categories" },
-  { name: "Ablauf", href: "#process" },
-  { name: "FAQ", href: "#faq" },
-  { name: "Kontakt", href: "#contact" },
+  { name: "Über uns", href: "/#about" },
+  { name: "Ankauf", href: "/#categories" },
+  { name: "Ablauf", href: "/#process" },
+  { name: "FAQ", href: "/#faq" },
+  { name: "Kontakt", href: "/#contact" },
 ]
 
 export function Navigation() {
@@ -56,7 +56,7 @@ export function Navigation() {
             </nav>
 
             <div className="hidden lg:block">
-              <Link href="#contact" className="btn-primary text-sm px-6 py-2.5">
+              <Link href="/#contact" className="btn-primary text-sm px-6 py-2.5">
                 Fahrzeug verkaufen
               </Link>
             </div>
@@ -91,7 +91,7 @@ export function Navigation() {
               </Link>
             ))}
             <Link
-              href="#contact"
+              href="/#contact"
               onClick={() => setIsMobileMenuOpen(false)}
               className="btn-primary mt-4"
             >

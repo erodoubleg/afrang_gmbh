@@ -6,17 +6,17 @@ import { ArrowUp, Mail, MapPin } from "lucide-react"
 
 const footerLinks = {
   navigation: [
-    { name: "Über uns", href: "#about" },
-    { name: "Ankauf", href: "#categories" },
-    { name: "Ablauf", href: "#process" },
-    { name: "FAQ", href: "#faq" },
-    { name: "Kontakt", href: "#contact" },
+    { name: "Über uns", href: "/#about" },
+    { name: "Ankauf", href: "/#categories" },
+    { name: "Ablauf", href: "/#process" },
+    { name: "FAQ", href: "/#faq" },
+    { name: "Kontakt", href: "/#contact" },
   ],
   ankauf: [
-    { name: "LKW Ankauf", href: "#categories" },
-    { name: "Baumaschinen", href: "#categories" },
-    { name: "Nutzfahrzeuge", href: "#categories" },
-    { name: "Anfrage senden", href: "#contact" },
+    { name: "LKW Ankauf", href: "/#categories" },
+    { name: "Baumaschinen", href: "/#categories" },
+    { name: "Nutzfahrzeuge", href: "/#categories" },
+    { name: "Anfrage senden", href: "/#contact" },
   ],
 }
 
@@ -97,7 +97,7 @@ export function Footer() {
             <p className="text-muted-foreground text-sm mb-6 leading-relaxed">
               Sie möchten ein Fahrzeug verkaufen? Wir freuen uns auf Ihre Anfrage.
             </p>
-            <Link href="#contact" className="btn-primary text-sm inline-block px-6 py-3">
+            <Link href="/#contact" className="btn-primary text-sm inline-block px-6 py-3">
               Ankauf anfragen
             </Link>
           </div>

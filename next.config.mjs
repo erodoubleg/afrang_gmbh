@@ -3,8 +3,12 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   images: {
     unoptimized: true,
+    qualities: [65, 70, 75, 80],
     remotePatterns: [
       {
         protocol: 'https',

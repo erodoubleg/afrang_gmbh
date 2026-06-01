@@ -10,7 +10,7 @@ export function HeroSection() {
     >
       <div className="absolute inset-0 z-0">
         <Image
-          src="/industrial-port-container-yard(1).jpg"
+          src="/images/port-yard.jpg"
           alt="Containerterminal mit LKWs und Logistik"
           fill
           className="object-cover object-center"

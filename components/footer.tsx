@@ -34,7 +34,7 @@ export function Footer() {
                 alt="Afrang GmbH Logo"
                 width={120}
                 height={120}
-                className="h-12 w-auto"
+                className="h-14 w-auto md:h-16"
               />
             </Link>
             <p className="text-muted-foreground mb-6 leading-relaxed text-sm">

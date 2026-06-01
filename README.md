@@ -32,8 +32,11 @@ npm run start:prod
 1. Repository mit GitHub verbinden
 2. In [Vercel](https://vercel.com) → **Add New Project** → Repo importieren
 3. Framework: **Next.js** (automatisch erkannt)
-4. Build Command: `next build` (Standard)
-5. Deploy starten
+4. **Node.js 20** (`.nvmrc` im Repo) – in den Projekteinstellungen prüfen
+5. Build Command: `npm run build` (Standard)
+6. Änderungen pushen → Vercel baut automatisch neu
+
+**Hinweise:** Nur `package-lock.json` nutzen (kein `pnpm-lock.yaml`). Der Production-Build läuft mit `typescript.ignoreBuildErrors` in [`next.config.mjs`](next.config.mjs). Große Bilder in `public/` verlängern den Upload, sind aber deploy-fähig.
 
 Optional: Custom Domain im Vercel-Dashboard hinterlegen.
 
